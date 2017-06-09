@@ -42,10 +42,11 @@ script:
   - make -C stmhal BOARD=PYBV11 MICROPY_PY_WIZNET5K=1 MICROPY_PY_CC3K=1
   - make -C stmhal BOARD=STM32F7DISC
   - make -C stmhal BOARD=STM32L476DISC
+  - make -C stmhal BOARD=mcu476_board
   - make -C teensy
   - make -C cc3200 BTARGET=application BTYPE=release
   - make -C cc3200 BTARGET=bootloader  BTYPE=release
-  - make -C windows CROSS_COMPILE=i686-w64-mingw32-
+  # - make -C windows CROSS_COMPILE=i686-w64-mingw32-
 
   # run tests without coverage info
   #- (cd tests && MICROPY_CPYTHON3=python3.4 ./run-tests)
