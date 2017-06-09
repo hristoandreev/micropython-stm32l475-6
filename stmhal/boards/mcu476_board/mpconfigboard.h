@@ -1,5 +1,5 @@
 #include STM32_HAL_H
-
+// mcu476_board
 #define MICROPY_BOARD_EARLY_INIT    mcu476_board_early_init
 void mcu476_board_early_init(void);
 
