@@ -46,7 +46,7 @@ script:
   - make -C teensy
   - make -C cc3200 BTARGET=application BTYPE=release
   - make -C cc3200 BTARGET=bootloader  BTYPE=release
-  # - make -C windows CROSS_COMPILE=i686-w64-mingw32-
+  - make -C windows CROSS_COMPILE=i686-w64-mingw32-
 
   # run tests without coverage info
   #- (cd tests && MICROPY_CPYTHON3=python3.4 ./run-tests)
