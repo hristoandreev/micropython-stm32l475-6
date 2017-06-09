@@ -1,0 +1,24 @@
+sha512.o: sha512.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+sha1.o: sha1.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+rsa.o: rsa.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+crypto_misc.o: crypto_misc.c ../ssl/os_port.h ../crypto/os_int.h \
+ ../config/config.h ../ssl/crypto_misc.h ../crypto/crypto.h \
+ ../crypto/bigint_impl.h ../crypto/bigint.h ../crypto/crypto.h \
+ ../crypto/bigint.h
+bigint.o: bigint.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ bigint.h crypto.h bigint_impl.h
+sha384.o: sha384.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+hmac.o: hmac.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+sha256.o: sha256.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+md5.o: md5.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+aes.o: aes.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h
+rc4.o: rc4.c ../ssl/os_port.h ../crypto/os_int.h ../config/config.h \
+ crypto.h bigint_impl.h bigint.h

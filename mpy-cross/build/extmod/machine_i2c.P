@@ -1,0 +1,56 @@
+build/py/../extmod/machine_i2c.o: ../py/../extmod/machine_i2c.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/string.h \
+ /usr/include/xlocale.h ../py/mperrno.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h ../py/mphal.h ../py/mpconfig.h \
+ mpconfigport.h /usr/include/alloca.h mphalport.h ../extmod/virtpin.h \
+ ../py/obj.h ../py/misc.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h ../py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../py/mpprint.h ../py/runtime.h \
+ ../py/mpstate.h ../py/mpthread.h ../py/nlr.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/bits/sigset.h \
+ /usr/include/assert.h ../py/objlist.h ../py/objexcept.h ../py/objtuple.h \
+ ../extmod/machine_i2c.h
+../py/../extmod/machine_i2c.c :
+ /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h :
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h :
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h :
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h :
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h :
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h :
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h :
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h :
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h :
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/string.h :
+ /usr/include/xlocale.h ../py/mperrno.h /usr/include/errno.h :
+ /usr/include/bits/errno.h /usr/include/linux/errno.h :
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h :
+ /usr/include/asm-generic/errno-base.h ../py/mphal.h ../py/mpconfig.h :
+ mpconfigport.h /usr/include/alloca.h mphalport.h ../extmod/virtpin.h :
+ ../py/obj.h ../py/misc.h :
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h ../py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../py/mpprint.h ../py/runtime.h :
+ ../py/mpstate.h ../py/mpthread.h ../py/nlr.h :
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h :
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h :
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h :
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h :
+ /usr/include/bits/posix2_lim.h /usr/include/setjmp.h :
+ /usr/include/bits/setjmp.h /usr/include/bits/sigset.h :
+ /usr/include/assert.h ../py/objlist.h ../py/objexcept.h ../py/objtuple.h :
+ ../extmod/machine_i2c.h :
